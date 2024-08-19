@@ -11,6 +11,7 @@ function App() {
       {/* aqui voy agregar un componente */}
       <Informacion/>
     </section>
+    <Contador></Contador>
   
     </>
     
