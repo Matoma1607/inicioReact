@@ -12,9 +12,9 @@ const Informacion = (props) => {
         de un <span className="palabraResaltada">DOM virtual</span> . React
         permite a los desarrolladores construir interfaces dinámicas y reactivas
         de forma modular, lo que facilita el desarrollo y el mantenimiento de
-        aplicaciones a gran escala
+        aplicaciones a gran escala. <br /> Año de actualizacion: {props.anioActual} 
       </p>
-      <p>Año de actualizacion: {props.anioActual}</p>
+      
       <Teoria></Teoria>
     </article>
   );
